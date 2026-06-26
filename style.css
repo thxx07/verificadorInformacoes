@@ -37,7 +37,17 @@ main {
 
 .cartao-interno{
     position: relative;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
 }
+
+.cartao:hover .csrtso-interno{
+
+    transform: rotateY(180deg)
+}
+
+
+
 
 .cartao-frente, .cartao-verso{
 
@@ -50,3 +60,4 @@ main {
 .cartao-verso{
     transform: rotateY(180deg);
 }
+
