@@ -1,26 +1,36 @@
-*{
+* {
     margin: 0;
-    padding: 0
+    padding: 0;
 
 }
 
-body{
+body {
 
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-main{
+main {
     flex: 1;
 }
 
-.cabecalho{
-    color:black;
+.cabecalho {
+    color: rgb(224, 203, 11);
     padding: 15px 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #483D8B;
+    background-color: #7f00b9;
+}
 
+.cartao {
+
+    width: 260px;
+    height: 200px;
+}
+
+.cartao-imagem {
+
+    width: 100%;
 }
